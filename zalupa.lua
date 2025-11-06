@@ -126,7 +126,6 @@ if not LPH_OBFUSCATED then
 				print("Loaded Part 1")
 			end
 		end
-		if not loaded then return LocalPlayer:Kick('no 1') end
 
 		local loaded2 = false
 		for _,Table in GarbageCollection do
